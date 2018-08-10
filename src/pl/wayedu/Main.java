@@ -1,8 +1,8 @@
 package pl.wayedu;
 
 public class Main {
-
     public static void main(String[] args) {
-        // write your code here
+        Calculator c = new Calculator();
+        System.out.println(c.eval("2+4"));
     }
 }
